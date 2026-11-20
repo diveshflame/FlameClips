@@ -1,0 +1,241 @@
+---
+name: Studio Kinetic Dark
+colors:
+  surface: '#0f131d'
+  surface-dim: '#0f131d'
+  surface-bright: '#353944'
+  surface-container-lowest: '#0a0e18'
+  surface-container-low: '#171b26'
+  surface-container: '#1c1f2a'
+  surface-container-high: '#262a35'
+  surface-container-highest: '#313540'
+  on-surface: '#dfe2f1'
+  on-surface-variant: '#c7c4d7'
+  inverse-surface: '#dfe2f1'
+  inverse-on-surface: '#2c303b'
+  outline: '#908fa0'
+  outline-variant: '#464554'
+  surface-tint: '#c0c1ff'
+  primary: '#c0c1ff'
+  on-primary: '#1000a9'
+  primary-container: '#8083ff'
+  on-primary-container: '#0d0096'
+  inverse-primary: '#494bd6'
+  secondary: '#4edea3'
+  on-secondary: '#003824'
+  secondary-container: '#00a572'
+  on-secondary-container: '#00311f'
+  tertiary: '#ffb95f'
+  on-tertiary: '#472a00'
+  tertiary-container: '#ca8100'
+  on-tertiary-container: '#3e2400'
+  error: '#ffb4ab'
+  on-error: '#690005'
+  error-container: '#93000a'
+  on-error-container: '#ffdad6'
+  primary-fixed: '#e1e0ff'
+  primary-fixed-dim: '#c0c1ff'
+  on-primary-fixed: '#07006c'
+  on-primary-fixed-variant: '#2f2ebe'
+  secondary-fixed: '#6ffbbe'
+  secondary-fixed-dim: '#4edea3'
+  on-secondary-fixed: '#002113'
+  on-secondary-fixed-variant: '#005236'
+  tertiary-fixed: '#ffddb8'
+  tertiary-fixed-dim: '#ffb95f'
+  on-tertiary-fixed: '#2a1700'
+  on-tertiary-fixed-variant: '#653e00'
+  background: '#0f131d'
+  on-background: '#dfe2f1'
+  surface-variant: '#313540'
+typography:
+  headline-xl:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '700'
+    lineHeight: 48px
+  headline-xl-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 30px
+    fontWeight: '700'
+    lineHeight: 38px
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '600'
+    lineHeight: 36px
+  headline-lg-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 22px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 26px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '600'
+    lineHeight: 22px
+  body-lg:
+    fontFamily: Inter
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Inter
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Inter
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-md:
+    fontFamily: JetBrains Mono
+    fontSize: 13px
+    fontWeight: '500'
+    lineHeight: 18px
+  label-sm:
+    fontFamily: JetBrains Mono
+    fontSize: 11px
+    fontWeight: '500'
+    lineHeight: 14px
+  label-xs:
+    fontFamily: JetBrains Mono
+    fontSize: 10px
+    fontWeight: '600'
+    lineHeight: 12px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1.5rem
+  gutter-sm: 1rem
+  gutter-lg: 2rem
+  margin: 2rem
+  margin-sm: 1rem
+  margin-lg: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.5rem
+---
+
+## Brand & Style
+
+This design system delivers a high-precision, focused editing environment tailored for short-form video creators, agencies, and social media strategists. The interface prioritizes deep immersion, cognitive endurance, and rapid decision-making during asset selection and timeline arrangement.
+
+### Visual Style
+- **Aesthetic Direction:** Elevated Dark Minimalist with disciplined cybernetic touches. Interfaces are anchored in near-black charcoal surfaces that prioritize high-framerate visual content.
+- **Atmospheric Depth:** Visual energy stems from restrained electric violet and indigo gradients, reserved for computational highlights, virality score badges, and primary generative actions.
+- **Subtle Surface Definition:** High-definition structural clarity is achieved using low-opacity perimeter strokes, fine 1px inner highlights, and soft localized glow filters rather than heavy drop shadows.
+- **Tone:** Autonomous, pro-grade, razor-sharp, and distraction-free.
+
+## Colors
+
+The palette is engineered exclusively for a dark-first production workflow to reduce eye fatigue during long video review sessions.
+
+### Core Architecture
+- **Primary (`#6366F1`):** Electric Indigo. Serves as the interactive anchor for generation triggers, timeline cursors, active navigation markers, and AI intelligence indicators.
+- **Secondary (`#10B981`):** Emerald. Strictly designated for high-virality ratings (85+), rendering success states, and live output badges.
+- **Tertiary (`#F59E0B`):** Amber. Dedicated to asynchronous queuing, video transcoding notices, audio clipping warnings, and token usage warnings.
+- **Neutral (`#0B0F19`):** Deep Obsidian. Serves as the root canvas.
+
+### Color Distribution & Application
+- **Canvas Base:** `#0B0F19` provides absolute contrast against 9:16 vertical video thumbnails.
+- **Surface Level 1 (Panels & Shell):** `#111827` at 90% opacity over canvas.
+- **Surface Level 2 (Cards & Active Groups):** `#161F36` with a border stroke of `#334155` at 50% opacity.
+- **Surface Level 3 (Modals, Overlays, Dropdowns):** `#1E293B`.
+- **Primary AI Gradient:** Linear 135deg from `#4F46E5` to `#818CF8`. Use exclusively on batch export triggers, primary generation actions, and AI score pills.
+- **Borders:** Restrict neutral borders to 1px solid `#1E293B` or `#334155` with alpha channels between 0.35 and 0.6. Avoid solid bright lines.
+
+## Typography
+
+The typographic hierarchy balances modern SaaS readability with dense data visibility:
+
+- **Headlines (Plus Jakarta Sans):** Geometric curves and generous counters provide a contemporary brand voice without competing against video previews.
+- **Body & Controls (Inter):** High x-height, clear optical kerning, and neutral letterforms guarantee effortless reading across captions, metadata panels, and script previews.
+- **Technical & Metric Data (JetBrains Mono):** Reserved for video timecodes (`00:14:22`), virality probability metrics (`Score: 94.8`), export resolutions, aspect ratios (`9:16`), and token meters.
+
+### Formatting Rules
+- Keep headings above 24px in pure white (`#F8FAFC`).
+- Body text defaults to neutral slate (`#94A3B8`). Muted labels and secondary explanations drop to `#64748B`.
+- Numeric values must enable tabular figures (`font-variant-numeric: tabular-nums`) to prevent jitter during live timeline playback and dynamic scoring tickers.
+
+## Layout & Spacing
+
+The layout is built for complex studio workspace layouts, prioritizing high information density alongside spatial breathing room.
+
+### Layout Architecture
+- **Desktop (1440px+):** Fixed 260px collapsible primary navigation sidebar, dynamic multi-column workbench containing an active 9:16 preview canvas (center) flanked by generation panels (380px) and timeline clip feeds.
+- **Tablet (768px - 1439px):** Sidebar retracts into a slim 64px icon rail. Center player and side inspect panes collapse into structured vertical tabs.
+- **Mobile (< 768px):** Single-column stacked stream. Timeline actions convert into fixed bottom-sheet drawers; the video view anchors at the top with auto-calculated height.
+
+### Spatial Discipline
+- Base internal spacing follows an uncompromising 4px/8px modular rhythm.
+- Dense operational panels (timeline tracks, clip trimming handles) leverage `space-xs` (4px) and `space-sm` (8px).
+- Card containers and view headers preserve clarity using `space-md` (16px) and `space-lg` (24px) internal padding.
+
+## Elevation & Depth
+
+To avoid murky visuals in dark mode, elevation relies on luminance layering, edge highlights, and calibrated optical glows rather than dark drop shadows.
+
+### Elevation Levels
+
+1. **Surface 0 (Background Canvas):** Solid `#0B0F19`. Zero elevation.
+2. **Surface 1 (Panels & Toolbars):** `#111827` at 95% opacity with backdrop blur (12px). Encased with a 1px top border of `rgba(255, 255, 255, 0.07)` and side/bottom borders of `rgba(255, 255, 255, 0.03)`.
+3. **Surface 2 (Interactive Cards & Timeline Chunks):** `#161F36` at 85% opacity. Surrounded by a 1px border of `rgba(99, 102, 241, 0.15)` when inactive, and `rgba(99, 102, 241, 0.5)` when focused.
+4. **Surface 3 (Floating Overlays, Select Menus, Tooltips):** `#1E293B` with a diffuse ambient shadow: `0 16px 36px -8px rgba(0, 0, 0, 0.65), 0 0 0 1px rgba(255, 255, 255, 0.1)`.
+
+### Optical Glow Filters
+Active items, processing clips, and top AI score nodes receive a soft, color-tinted back-glow:
+- **Violet Glow:** `0 0 24px -4px rgba(99, 102, 241, 0.25)`
+- **Success Glow:** `0 0 20px -4px rgba(16, 185, 129, 0.25)`
+
+## Shapes
+
+The interface balances sharp, technical utility with comfortable tactile contours:
+
+- **Corner Radii:** Structural default is `roundedness: 2` (base radius of 8px / `0.5rem`).
+- **Cards & Video Shells (`rounded-lg` / 16px):** Framing for generated video outputs, media bin cards, and modal dialogs.
+- **Controls & Buttons (`rounded` / 8px):** Precision inputs, timeline scrubber handles, action triggers, and segmented buttons.
+- **Tags, Chips, & Badges (`rounded-full`):** Virality metrics, timestamp counters, and processing status markers use full capsule curvature to differentiate metadata from interactive cards.
+
+## Components
+
+### Buttons
+- **Primary CTA ("Generate Clips", "Export All"):** Linear gradient background (`#4F46E5` to `#6366F1`), high-contrast pure white text, 8px radius, subtle top-edge inner highlight (`inset 0 1px 0 rgba(255, 255, 255, 0.2)`). Hover expands a violet ambient glow (`0 0 20px rgba(99, 102, 241, 0.4)`).
+- **Secondary CTA:** Surface background `#1E293B`, 1px border `rgba(255, 255, 255, 0.1)`. Hover shifts background to `#25334D` with text turning from slate-300 to slate-100.
+- **Ghost / Icon Actions:** Transparent background, slate-400 icons. On hover, background shifts to `rgba(255, 255, 255, 0.05)` with icon tint moving to `#818CF8`.
+
+### Chips & Badges
+- **AI Virality Score Pill:** Capsule shape, `JetBrains Mono` bold 11px. High-tier (85-100) utilizes a 10% emerald background (`rgba(16, 185, 129, 0.12)`), `#10B981` text, and a fine 1px border `rgba(16, 185, 129, 0.3)`. Mid-tier uses amber tokens; low-tier uses muted slate.
+- **Social Destination Chips (TikTok, Shorts, Reels):** Dark neutral background with an icon prefix and active state toggled via a thin electric violet boundary ring.
+
+### Cards (Clip Card Variant)
+- **Structure:** Aspect ratio preserved thumbnail area followed by metadata and quick-actions below.
+- **Styling:** `#131B2E` background, 16px radius, encased with 1px border `rgba(255, 255, 255, 0.05)`.
+- **States:** Hover smoothly lifts border illumination to `rgba(99, 102, 241, 0.4)` and applies an internal overlay gradient on the video preview. Selected clip adds an active 2px outer border of `#6366F1`.
+
+### Input Fields & Search Bars
+- **Surface:** `#0E1424` recessed interior with 8px radius.
+- **Border:** 1px `rgba(255, 255, 255, 0.08)`.
+- **Focus State:** Border transitions to `#6366F1` with an outer ring spread of `0 0 0 3px rgba(99, 102, 241, 0.2)`. Placeholder text in `#475569`.
+- **Prepend/Append Slots:** Monospace timecode badges, URL scraper prompts, and Lucide search icons set to `#64748B`.
+
+### Checkboxes & Switches
+- **Checkboxes:** 18x18px, 4px radius. Checked state fills with `#6366F1` displaying a crisp white vector checkmark. Unchecked state shows `#0E1424` with a 1px border of `#334155`.
+- **Toggles / Switches:** Capsule frame with 20px height, 36px width. Off-state `#1E293B`, On-state gradient violet. Thumb is 16px crisp white with smooth horizontal spring transition.
+
+### Custom Creator Components
+- **Timeline Trimmer Bar:** Dual-ended range slider in electric indigo with active frame preview strip, frame-accurate monospace indicators, and vertical playhead line in `#FFFFFF`.
+- **Transcript Synchronizer Box:** Highlighting active spoken word chunks in real-time with violet underline accents and editable caption text blocks.

@@ -1,0 +1,6 @@
+{
+  "name": "ClipForge AI",
+  "description": "AI-assisted long-video-to-short-clips studio for discovering hooks, insights, and story moments and exporting vertical 9:16 MP4s.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,19 @@
+services:
+  clipforge:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+      PORT: "3000"
+      APP_URL: "http://localhost:3000"
+      GEMINI_API_KEY: "${GEMINI_API_KEY:-}"
+      SESSION_SECRET: "${SESSION_SECRET:-change-me-in-production}"
+      SIGNED_URL_SECRET: "${SIGNED_URL_SECRET:-change-me-in-production-signed}"
+      STORAGE_DIR: "/data/storage"
+      DATABASE_PATH: "/data/storage/clipforge.db"
+    volumes:
+      - clipforge_data:/data/storage
+
+volumes:
+  clipforge_data:
